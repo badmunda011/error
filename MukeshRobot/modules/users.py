@@ -23,7 +23,6 @@ import time, asyncio, logging, datetime
 
 
 __mod_name__ = "ɢ-ᴄᴀsᴛ"
-__handlers__ = [(USER_HANDLER, USERS_GROUP), CHATLIST_HANDLER]
 
 __help__ = """
  ❍ *ʙʀᴏᴀᴅᴄᴀsᴛ ➛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)*
