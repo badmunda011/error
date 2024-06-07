@@ -18,6 +18,4 @@ __help__ = """
 • /reports `<on/off/yes/no>`: change report setting, or view current status.
     ‣ If done in PM, toggles your status.
     ‣ If in group, toggles that groups's status."""
-    
- """
  
