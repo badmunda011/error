@@ -30,6 +30,8 @@ __help__ = """
  ❍ *ɴᴏᴛᴇ ➛* ᴛʜɪs sᴜᴘᴘᴏʀᴛs ʙᴀsɪᴄ ᴍᴀʀᴋᴅᴏᴡɴ
 
  ❍ /broadcastall *➛* ʙʀᴏᴀᴅᴄᴀsᴛs ᴇᴠᴇʀʏᴡʜᴇʀᴇ
+
+ ❍ /broadcast *➛* ᴍsɢ -ᴀʟʟ -ᴘɪɴ
  
  ❍ /broadcastusers *➛* ʙʀᴏᴀᴅᴄᴀsᴛs ᴛᴏᴏ ᴀʟʟ ᴜsᴇʀs
  
