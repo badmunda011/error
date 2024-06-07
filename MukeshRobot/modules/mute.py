@@ -4,7 +4,7 @@ from MukeshRobot import pbot
 from MukeshRobot.utils.errors import capture_err
 from MukeshRobot.modules.helper_funcs.misc import is_module_loaded
 
-__mod_name__ = "ᴍᴜᴛɪɴ"
+__mod_name__ = "ᴍᴜᴛɪɴɢ"
 
 __help__ = """
 **ᴍᴜᴛɪɴɢ**
