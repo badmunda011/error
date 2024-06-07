@@ -66,20 +66,3 @@ __help__ = """
 
 
 __mod_name__ = "ᴡᴇʟᴄᴏᴍᴇ"
-__command_list__ = []
-__handlers__ = [
-    NEW_MEM_HANDLER,
-    LEFT_MEM_HANDLER,
-    WELC_PREF_HANDLER,
-    GOODBYE_PREF_HANDLER,
-    SET_WELCOME,
-    SET_GOODBYE,
-    RESET_WELCOME,
-    RESET_GOODBYE,
-    CLEAN_WELCOME,
-    WELCOME_HELP,
-    WELCOMEMUTE_HANDLER,
-    CLEAN_SERVICE_HANDLER,
-    BUTTON_VERIFY_HANDLER,
-    WELCOME_MUTE_HELP,
-]
