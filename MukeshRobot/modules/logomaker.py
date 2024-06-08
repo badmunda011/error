@@ -1730,17 +1730,24 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
-    fname="LogoMakeBy_IRO.png"
-    img.save(fname, "png")
-    await tbot.send_file(event.chat_id, file=fname, caption=f"ᴍᴀᴅᴇ ʙʏ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ʙᴀʙʏ🥀")         
-    await pesan.delete()
-    if os.path.exists(fname):
+            fname = "mukesh.png"
+        img.save(fname, "png")
+        await telethn.send_file(
+            event.chat_id,
+            file=fname,
+            caption=f"""━━━━━━━{BOT_NAME}━━━━━━━
+
+ᰔᩚ ʟᴏɢᴏ ᴄʀᴇᴀᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᰔᩚ
+
+✦ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ➛ [˹ •─╼⃝𖠁● 𝐁яσкєи ✘ 𝐑σвσт ●𖠁⃝╾─• ˼](https://t.me/BrokenRobot_Bot)
+━━━━━━━{BOT_NAME}━━━━━━━""",buttons=button_row
+)
+        await pesan.delete()
+        if os.path.exists(fname):
             os.remove(fname)
- except Exception as e:
-    await event.reply(f'ᴇʀʀᴏʀ, ʀᴇᴘᴏʀᴛ ᴛᴏ @{SUPPORT_CHAT}  ʙᴀʙʏ🥀')
-
-
-
+    except Exception as e:
+        await event.reply(f"ᴇʀʀᴏʀ {e}, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @{SUPPORT_CHAT} ")
+        
 
 @register(pattern="^/ylogo ?(.*)")
 async def lego(event):
