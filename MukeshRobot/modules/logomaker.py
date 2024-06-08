@@ -1742,12 +1742,11 @@ async def lego(event):
 ✦ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ➛ [˹ •─╼⃝𖠁● 𝐁яσкєи ✘ 𝐑σвσт ●𖠁⃝╾─• ˼](https://t.me/BrokenRobot_Bot)
 ━━━━━━━{BOT_NAME}━━━━━━━""",buttons=button_row
 )
-    await pesan.delete()
+     await pesan.delete()
     if os.path.exists(fname):
-        os.remove(fname)
-    except Exception as e:
-    await event.reply(f"ᴇʀʀᴏʀ {e}, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @{SUPPORT_CHAT} ")
-        
+            os.remove(fname)
+ except Exception as e:
+    await event.reply(f'ᴇʀʀᴏʀ, ʀᴇᴘᴏʀᴛ ᴛᴏ @{SUPPORT_CHAT} ʙᴀʙʏ🥀')  
 
 @register(pattern="^/ylogo ?(.*)")
 async def lego(event):
@@ -1788,7 +1787,6 @@ async def lego(event):
             os.remove(fname)
  except Exception as e:
     await event.reply(f'ᴇʀʀᴏʀ, ʀᴇᴘᴏʀᴛ ᴛᴏ @{SUPPORT_CHAT} ʙᴀʙʏ🥀')  
-
 
 
     
