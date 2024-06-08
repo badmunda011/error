@@ -1742,9 +1742,9 @@ async def lego(event):
 ✦ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ➛ [˹ •─╼⃝𖠁● 𝐁яσкєи ✘ 𝐑σвσт ●𖠁⃝╾─• ˼](https://t.me/BrokenRobot_Bot)
 ━━━━━━━{BOT_NAME}━━━━━━━""",buttons=button_row
 )
-     await pesan.delete()
-     if os.path.exists(fname):
-            os.remove(fname)
+    await pesan.delete()
+    if os.path.exists(fname):
+        os.remove(fname)
     except Exception as e:
         await event.reply(f"ᴇʀʀᴏʀ {e}, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @{SUPPORT_CHAT} ")
         
